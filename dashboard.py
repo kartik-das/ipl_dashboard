@@ -10,7 +10,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], meta_tags
     {"name": "viewport", "content": "width=device-width, initial-scale=1"}
 ])
 
-
+server = app.server
 
 data_1 = pd.read_csv('deliveries.csv')
 data_2 = pd.read_csv("matches.csv")
