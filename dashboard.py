@@ -130,7 +130,7 @@ main_content = html.Div([
                                  style={'color': '#012fac', 'text-align': 'center'})),
                  style={'borderRadius': '15px', 'margin-left': '2rem',
                         'fontFamily': 'Helvetica',
-                        'font-weight': 'bold', 'background-color': 'white', 'width': '1045px'}), ]),
+                        'font-weight': 'bold', 'background-color': 'white'}), ]),
 
     dbc.Row([html.Br()]),
     dbc.Row([html.Br()]),
