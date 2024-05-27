@@ -175,7 +175,7 @@ main_content = html.Div([
 
             ]),
             style={'borderRadius': '15px', 'margin-left': '2rem', 'fontFamily': 'Helvetica', 'font-weight': 'bold',
-                   'background-color': '#574f5c', 'width': '1045px', 'height': '550px'}
+                   'background-color': '#574f5c', 'height': '550px'}
         )
     ]),
     dbc.Row([html.Br()]),
@@ -237,8 +237,8 @@ main_content = html.Div([
                     dbc.Row([dcc.Graph(id='team1_graph', config={'displayModeBar': False}, style={'width': '490px'})]),
                     dbc.Row([html.Br()])
                 ], style={'background-color': '#574f5c'})
-            ], style={'width': '520px', 'borderRadius': '15px', 'margin-left': '.5rem'})
-        ]),
+            ], style={'borderRadius': '15px', 'margin-left': '.5rem'})
+        ],width = 6),
         dbc.Col([
             dbc.Card([
                 dbc.CardHeader(html.H5(id='team_2', className='card-text', style={'text-align': 'left'})),
@@ -248,11 +248,13 @@ main_content = html.Div([
                     dbc.Row([dcc.Graph(id='team2_graph', config={'displayModeBar': False}, style={'width': '490px'})]),
                     dbc.Row([html.Br()])
                 ], style={'background-color': '#574f5c'})
-            ], style={'width': '520px', 'borderRadius': '15px', 'margin-left': '.5rem'})
-        ])
+            ], style={'borderRadius': '15px', 'margin-left': '.5rem'})
+        ],width = 6)
     ]),
     dbc.Row([html.Br()]),
-    dbc.Row([html.P('Developed by Kartik and it contains data till 2023 since inception.',
+    dbc.Row([html.Br()]),
+
+    dbc.Row([html.P('Developed by Kartik and it contains data until 2023.',
                     style={'margin-left': '2rem', 'color': 'black'})]),
     dbc.Row([html.Br()])
 
